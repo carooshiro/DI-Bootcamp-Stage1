@@ -44,3 +44,21 @@ if number % 2 == 0:
     print("Even")
 else:
     print("Odd")
+
+#Exercise8
+my_name = "Carolina"
+
+user_name = input("What is your name? ")
+
+if user_name.lower() == my_name.lower():
+    print("What?! We have the same name! Are you my twin? 😂")
+else:
+    print(f"Nice to meet you, {user_name}! Your name is different from mine! 😄")
+
+#Exercise9
+height = int(input("What is your height in centimeters? "))
+
+if height > 145:
+    print("You are tall enough to ride!")
+else:
+    print("You need to grow some more to ride.")
