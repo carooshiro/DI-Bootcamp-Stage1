@@ -51,9 +51,9 @@ my_name = "Carolina"
 user_name = input("What is your name? ")
 
 if user_name.lower() == my_name.lower():
-    print("What?! We have the same name! Are you my twin? 😂")
+    print("What?! We have the same name! Are you my twin? ")
 else:
-    print(f"Nice to meet you, {user_name}! Your name is different from mine! 😄")
+    print(f"Nice to meet you, {user_name}! Your name is different from mine! ")
 
 #Exercise9
 height = int(input("What is your height in centimeters? "))
